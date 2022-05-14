@@ -1,0 +1,32 @@
+.sidebar {
+  padding: 2rem;
+  background-color: #1d1d1d;
+  height: 100vh;
+}
+
+.logo {
+  margin-bottom: 3rem;
+}
+
+.link {
+  height: 3rem;
+  color: inherit;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem;
+  margin: 1rem 0;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: color 0.5s, font-size 0.5s;
+}
+
+.link:hover {
+  color: #eeeeee;
+  font-size: 1.15rem;
+}
+
+.link span {
+  margin-left: 0.5rem;
+}
